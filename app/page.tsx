@@ -12,12 +12,21 @@ import {
 } from "@/app/_data/front-page";
 
 export default function NewsFront() {
+  const firstMiddleImage = middleColumn.findIndex((story) => story.image);
+
   return (
     <PageShell>
       <Epigraph />
 
       {/* Meridian's canonical news-front split: lead / second / rail. */}
       <div className="grid gap-8 lg:grid-cols-[5fr_4fr_3fr]">
+        <Teaser
+          story={middleColumn[0]}
+          variant="middle-column"
+          withImage={false}
+          className="lg:hidden"
+        />
+
         <div className="flex flex-col gap-[22px] lg:border-r lg:border-rule-1 lg:pr-8">
           <LeadStory />
           {leadColumn.map((story) => (
@@ -31,8 +40,9 @@ export default function NewsFront() {
               key={story.id}
               story={story}
               variant="middle-column"
-              withImage={index === 0}
-              priority={index === 0}
+              withImage={index === firstMiddleImage}
+              priority={index === firstMiddleImage}
+              className={index === 0 ? "hidden lg:flex" : undefined}
             />
           ))}
         </div>

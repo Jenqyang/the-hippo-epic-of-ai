@@ -55,18 +55,20 @@ export function Teaser({
   variant,
   withImage = true,
   priority = false,
+  className = "",
 }: {
   story: Story;
   variant: TeaserVariant;
   /** The middle column only runs a photo on its first story. */
   withImage?: boolean;
   priority?: boolean;
+  className?: string;
 }) {
   const style = variants[variant];
   const image = withImage && story.image ? style.image : "none";
 
   return (
-    <article className={style.article}>
+    <article className={`${style.article} ${className}`}>
       {image === "top" && (
         <StoryImage
           story={story}

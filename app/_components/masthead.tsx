@@ -31,7 +31,7 @@ export function Masthead() {
         </div>
       </div>
 
-      <div className="text-center font-mono text-xs leading-[1.4] tracking-[0.04em] text-ink-2 lg:text-right">
+      <div className="text-center font-serif text-xs leading-[1.4] tracking-[0.04em] text-ink-2 lg:text-right">
         <span>{masthead.archiveCount}</span>
       </div>
     </header>

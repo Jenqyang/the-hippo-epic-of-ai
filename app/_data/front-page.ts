@@ -22,7 +22,7 @@ export const [leadStory] = pick("003");
  * sharpest lines belong in `middleColumn`, not the rail.
  */
 export const leadColumn = pick("112", "046");
-export const middleColumn = pick("080", "023", "084", "107", "039", "172");
+export const middleColumn = pick("107", "080", "023", "084", "039", "172");
 export const railColumn = pick("196", "200", "205", "059", "135", "092", "020");
 
 export const railLabel = "更多报道";

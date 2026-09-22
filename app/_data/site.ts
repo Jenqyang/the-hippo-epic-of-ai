@@ -14,6 +14,9 @@ export const siteLatinTitle = "The Hippo Epic of AI";
 
 export const siteTitle = `${siteName} · ${siteLatinTitle}`;
 
+/** Where the paper's source and story files live. */
+export const repoUrl = "https://github.com/Jenqyang/the-hippo-epic-of-ai";
+
 export const siteDescription =
   "一份记录 AI 时代造富传说的报纸：13岁三天赚1.8万，14岁辍学月营收5000万，一个 HTML 文件17天进账100万美元。";
 
