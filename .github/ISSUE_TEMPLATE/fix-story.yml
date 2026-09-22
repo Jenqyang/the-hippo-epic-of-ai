@@ -1,0 +1,36 @@
+name: 纠错 / 下架
+description: 某条案例写错了、重复了，或者应该撤下
+title: "[纠错] "
+labels: ["纠错"]
+body:
+  - type: input
+    id: id
+    attributes:
+      label: 案例编号
+      description: 网址 /story/216 里的那三位数字，或 content/stories/216.json
+      placeholder: "216"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 问题类型
+      options:
+        - 事实或数字有误
+        - 引语与原文不符
+        - 与另一条案例重复
+        - 原文链接失效
+        - 配图有问题
+        - 希望撤下（我是权利人或当事人）
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: detail
+    attributes:
+      label: 具体说明
+      description: 能附上可核实的来源最好。
+    validations:
+      required: true

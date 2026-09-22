@@ -1,0 +1,71 @@
+name: 提名一条案例
+description: 看到一篇值得收录的报道，但不想动代码
+title: "[案例] "
+labels: ["新案例"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        填完这张表，维护者就能把它变成一条案例。
+        会写 JSON 的话，直接提 PR 更快：见 [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md)。
+
+  - type: input
+    id: url
+    attributes:
+      label: 原文链接
+      description: 必须是可追溯的原始报道。只有截图、短视频口述或卖课广告的，恕不收录。
+      placeholder: https://
+    validations:
+      required: true
+
+  - type: input
+    id: outlet
+    attributes:
+      label: 媒体与发布时间
+      placeholder: 每日经济新闻，2026-03-24
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: 这是一件什么事
+      description: |
+        两三句话说清：谁、用什么 AI、做了什么、结果多夸张。
+        也请说明数字的来源——媒体核实的、当事人自述的，还是软文里写的。
+    validations:
+      required: true
+
+  - type: dropdown
+    id: section
+    attributes:
+      label: 你觉得应该归到哪个版块
+      options:
+        - 新手村（未成年人、学生、刚入行的人）
+        - 单人速通（一个人做完一整个产品/公司）
+        - 支线任务（有本职工作，用 AI 做副业）
+        - 皮套人（数字人、AI 模特、虚拟主播）
+        - 开新番（AI 短剧、网文、音乐等内容工业）
+        - 拿不准
+    validations:
+      required: true
+
+  - type: textarea
+    id: quote
+    attributes:
+      label: 原文里最有传播感的一句话（选填）
+      description: 请一字不改地抄原文。没有真正有力的句子就留空，不要自己编。
+
+  - type: textarea
+    id: other
+    attributes:
+      label: 其他报道链接（选填）
+      description: 同一件事的转载、后续、当事人自己的帖子。
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 确认
+      options:
+        - label: 我搜过仓库，这件事还没有被收录
+          required: true

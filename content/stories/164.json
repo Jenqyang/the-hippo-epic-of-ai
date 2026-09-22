@@ -1,0 +1,19 @@
+{
+  "title": "法国眼镜店配镜师，看YouTube学会编程，一个人经营多个SaaS月入4万美元",
+  "section": "solo",
+  "outlet": "ToolBistro",
+  "published": "2026-06-30",
+  "url": "https://www.indiehackers.com/post/tech/learning-to-code-and-building-a-28k-mo-portfolio-of-saas-products-OA5p18fXtvHGxP9xTAwG",
+  "image": "164.jpg",
+  "summary": "Samuel Rondot 做了三年配镜师，每天上班前、下班后写副业项目。他跟着一个15小时的 YouTube 课程自学编程，后来一个人运营 StoryShort（自动生成无脸短视频）和 useArtemis（LinkedIn 获客）等产品，组合月收入约3.5万到4.1万美元。他的原则是不重新发明轮子，只做得比别人好1%。",
+  "quote": "那一刻，我辞了职，终于登上了那架我盯了好几年的飞机。",
+  "quoteOriginal": "At that point, I quit my job and finally took that plane I’d been staring at for years.",
+  "coverage": [
+    {
+      "title": "StoryShort：前配镜师做‘自动生成无脸短视频’工具，Stripe 相关数据来源给出的 MRR 约 $22K",
+      "outlet": "ToolBistro",
+      "published": "2026-06-30",
+      "url": "https://www.toolbistro.com/one-person-ai-startups"
+    }
+  ]
+}
