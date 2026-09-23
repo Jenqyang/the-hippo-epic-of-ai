@@ -3,7 +3,7 @@
 <img src=".github/assets/masthead.png" alt="AI河马史诗 · The Hippo Epic of AI" width="632">
 
 <p>
-  <img src="https://img.shields.io/badge/%E6%A1%88%E4%BE%8B-136-111111?style=flat-square" alt="案例 136">
+  <img src="https://img.shields.io/badge/%E6%A1%88%E4%BE%8B-132-111111?style=flat-square" alt="案例 132">
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/%E6%8A%95%E7%A8%BF-%E6%AC%A2%E8%BF%8E-8b1a1a?style=flat-square" alt="欢迎投稿"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/code-MIT-555555?style=flat-square" alt="MIT"></a>
 </p>
@@ -42,8 +42,8 @@
 
 | 版块 | 收录什么 | 条数 |
 | --- | --- | ---: |
-| 新手村 | 未成年人、学生、刚入行的人 | 21 |
-| 单人速通 | 一个人做完一整个产品或公司 | 62 |
+| 新手村 | 未成年人、学生、刚入行的人 | 19 |
+| 单人速通 | 一个人做完一整个产品或公司 | 60 |
 | 支线任务 | 有本职工作，用 AI 做副业 | 30 |
 | 皮套人 | 数字人、AI 模特、虚拟主播 | 15 |
 | 开新番 | AI 短剧、网文、音乐等内容工业 | 8 |
@@ -71,6 +71,7 @@
 | 有可追溯的原始报道 | 只有朋友圈截图、短视频口述或卖课广告 |
 | 数字标明了来源，哪怕只是当事人自述 | 品牌通稿、课程推广、厂商 case study |
 | 被质疑或明显夸大的案例 | 纯融资新闻，融资额不是收入 |
+| 造富叙事本身有值得审视的夸张或反差 | 以参赛、获奖或奖金为主要看点的正常正向成就 |
 
 同一件事只建一条，选最完整的报道做主条，其余放进 `coverage`。案例里的当事人多数是普通人，请不要在 Issue 或 PR 里贴他们的私人信息。
 
